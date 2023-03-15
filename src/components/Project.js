@@ -71,7 +71,7 @@ const Project = ({ technologies, title, image, color, id, github,  description }
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
         <button className="btn" onClick={() => (window.location.href = github)}>
-          GitHub Repo
+          Click to see
         </button>
        
       </Modal>

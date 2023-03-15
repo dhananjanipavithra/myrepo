@@ -51,7 +51,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
         >
           <div className="contentContainer">
             
-            <h5>Born to Sing</h5>
+            
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
