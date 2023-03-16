@@ -14,7 +14,7 @@ const SocialIcons = () => {
         <i className="fa-brands fa-youtube" aria-hidden="true" title="Pavithra Dhananjani' Youtube  Channel"></i>
       </a>
       
-      <a className="icon" style={styles.icon} href="https://open.spotify.com/playlist/37i9dQZF1E4wjx6WM0yqXI?si=4bb96552ac044985/">
+      <a className="icon" style={styles.icon} href="https://open.spotify.com/playlist/3wkJRBE6x667jzllAu1meP?si=4d706b1cf4164195/">
         <i className="fa-brands fa-spotify" aria-hidden="true" title="Pavithra Dhananjani' Spotify Radio"></i>
       </a>
 
