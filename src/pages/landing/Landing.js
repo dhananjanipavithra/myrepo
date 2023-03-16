@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import landingImage from "../../images/me.svg";
-import SocialIcons from "../../components/SocialIcons";
+import landingImage from "../../images/bckgrnd.jpg";
 
 const Landing = ({ name, tagline }) => {
   const styles = {
@@ -15,9 +14,9 @@ const Landing = ({ name, tagline }) => {
     landingImage: {
       position: "absolute",
       bottom: "0",
-      opacity: "0.3",
+      opacity: "1.5",
       mixBlendMode: "lighten",
-      height: "80%",
+      height: "170%",
     },
 
     textContainer: {
@@ -79,7 +78,7 @@ const Landing = ({ name, tagline }) => {
         />
       </div>
 
-      <SocialIcons />
+      
     </section>
   );
 };
