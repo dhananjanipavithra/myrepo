@@ -79,7 +79,7 @@ const Landing = ({ name, tagline }) => {
         />
       </div>
 
-      <SocialIcons />
+      
     </section>
   );
 };
